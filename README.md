@@ -7,7 +7,7 @@ https://projecteuler.net/archives
 ## Context
 
 This is a very good fit for people who has done (NPM module for common JS utility functions).
-after finishing each challenge you would be able to see other programmers code who has done the same challenge. This would help you to compare your code with other programmers to see other approaches to solve the problem. 
+after finishing each challenge you would be able to see other programmers code who has done the same challenge. This would help you to compare your code with other programmers to see other approaches to solve the problem.
 
 ## Specifications
 
@@ -17,21 +17,21 @@ after finishing each challenge you would be able to see other programmers code w
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Our 15 Challenges
-- [ ] [Multiples of 3 and 5]: https://projecteuler.net/problem=1
-- [ ] [Even Fibonacci numbers]: https://projecteuler.net/problem=2
-- [ ] [Largest prime factor]: https://projecteuler.net/problem=3
-- [ ] [Largest palindrome product]: https://projecteuler.net/problem=4
-- [ ] [Smallest multiple]: https://projecteuler.net/problem=5
-- [ ] [Sum square difference]: https://projecteuler.net/problem=6
-- [ ] [10001st prime]: https://projecteuler.net/problem=7
-- [ ] [Largest product in a series]: https://projecteuler.net/problem=8
-- [ ] [Special Pythagorean triplet]: https://projecteuler.net/problem=9
-- [ ] [Summation of primes]: https://projecteuler.net/problem=10
-- [ ] [Largest product in a grid]: https://projecteuler.net/problem=11
-- [ ] [Highly divisible triangular number]: https://projecteuler.net/problem=12
-- [ ] [Large sum]: https://projecteuler.net/problem=13
-- [ ] [Longest Collatz sequence]: https://projecteuler.net/problem=14
-- [ ] [Lattice paths]: https://projecteuler.net/problem=15
+- [ ] [Multiples of 3 and 5](https://projecteuler.net/problem=1)
+- [ ] [Even Fibonacci numbers](https://projecteuler.net/problem=2)
+- [ ] [Largest prime factor](https://projecteuler.net/problem=3)
+- [ ] [Largest palindrome product](https://projecteuler.net/problem=4)
+- [ ] [Smallest multiple](https://projecteuler.net/problem=5)
+- [ ] [Sum square difference](https://projecteuler.net/problem=6)
+- [ ] [10001st prime](https://projecteuler.net/problem=7)
+- [ ] [Largest product in a series](https://projecteuler.net/problem=8)
+- [ ] [Special Pythagorean triplet](https://projecteuler.net/problem=9)
+- [ ] [Summation of primes](https://projecteuler.net/problem=10)
+- [ ] [Largest product in a grid](https://projecteuler.net/problem=11)
+- [ ] [Highly divisible triangular number](https://projecteuler.net/problem=12)
+- [ ] [Large sum](https://projecteuler.net/problem=13)
+- [ ] [Longest Collatz sequence](https://projecteuler.net/problem=14)
+- [ ] [Lattice paths](https://projecteuler.net/problem=15)
 
 <!-- LICENSE -->
 
