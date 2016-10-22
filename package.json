@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jason00111/scant-dabchick-project-euler#readme",
   "devDependencies": {
+    "tap-spec": "^4.1.1",
     "tape": "^4.6.2"
   }
 }

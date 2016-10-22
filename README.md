@@ -17,7 +17,7 @@ after finishing each challenge you would be able to see other programmers code w
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Our 15 Challenges
-- [ ] [Multiples of 3 and 5](https://projecteuler.net/problem=1)
+- [X] [Multiples of 3 and 5](https://projecteuler.net/problem=1)
 - [ ] [Even Fibonacci numbers](https://projecteuler.net/problem=2)
 - [ ] [Largest prime factor](https://projecteuler.net/problem=3)
 - [ ] [Largest palindrome product](https://projecteuler.net/problem=4)
