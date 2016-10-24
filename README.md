@@ -18,7 +18,7 @@ after finishing each challenge you would be able to see other programmers code w
 
 ### Our 15 Challenges
 - [X] [Multiples of 3 and 5](https://projecteuler.net/problem=1)
-- [ ] [Even Fibonacci numbers](https://projecteuler.net/problem=2)
+- [X] [Even Fibonacci numbers](https://projecteuler.net/problem=2)
 - [ ] [Largest prime factor](https://projecteuler.net/problem=3)
 - [ ] [Largest palindrome product](https://projecteuler.net/problem=4)
 - [ ] [Smallest multiple](https://projecteuler.net/problem=5)
