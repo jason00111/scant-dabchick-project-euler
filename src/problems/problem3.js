@@ -1,6 +1,5 @@
 
 const isPrime = m => {
-
   const sqrtM = Math.sqrt(m)
   for (let i = 2; i <= sqrtM; i++) {
     if ( ( m / i ) % 1 === 0 ) {
