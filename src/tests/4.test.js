@@ -1,7 +1,7 @@
 const test = require('./testConfig')
 const {largestPalindromeProduct, isPalindrome} = require('../problems/problem4')
 
-test.only('Largest Palindrome Product', function (t) {
+test('Largest Palindrome Product', function (t) {
   t.equal(largestPalindromeProduct(1), 9, '1 returned 9')
   t.equal(largestPalindromeProduct(2), 9009, '2 returned 9009')
   t.equal(largestPalindromeProduct(3), 906609, '3 returned 906609')
