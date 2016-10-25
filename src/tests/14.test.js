@@ -1,7 +1,7 @@
 const test = require('./testConfig')
 const {longestCollatzSequence, lengthOfCollatzSequence} = require('../problems/problem14')
 
-test.only('Longest Collatz Sequence', function (t) {
+test('Longest Collatz Sequence', function (t) {
   t.equal(longestCollatzSequence(1000000), 5, '1000000 returned ?')
   t.end()
 })
