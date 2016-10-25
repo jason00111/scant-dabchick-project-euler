@@ -1,4 +1,3 @@
-
 const isPrime = m => {
   const sqrtM = Math.sqrt(m)
   for (let i = 2; i <= sqrtM; i++) {
