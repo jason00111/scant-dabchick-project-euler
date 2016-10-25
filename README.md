@@ -28,8 +28,8 @@ after finishing each challenge you would be able to see other programmers code w
 - [X] [Special Pythagorean triplet](https://projecteuler.net/problem=9)
 - [X] [Summation of primes](https://projecteuler.net/problem=10)
 - [X] [Largest product in a grid](https://projecteuler.net/problem=11)
-- [ ] [Highly divisible triangular number](https://projecteuler.net/problem=12)
-- [ ] [Large sum](https://projecteuler.net/problem=13)
+- [X] [Highly divisible triangular number](https://projecteuler.net/problem=12)
+- [X] [Large sum](https://projecteuler.net/problem=13)
 - [ ] [Longest Collatz sequence](https://projecteuler.net/problem=14)
 - [ ] [Lattice paths](https://projecteuler.net/problem=15)
 
