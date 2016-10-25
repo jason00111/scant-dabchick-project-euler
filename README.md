@@ -4,17 +4,12 @@
 
 https://projecteuler.net/archives
 
-## Context
-
-This is a very good fit for people who has done (NPM module for common JS utility functions).
-after finishing each challenge you would be able to see other programmers code who has done the same challenge. This would help you to compare your code with other programmers to see other approaches to solve the problem.
-
 ## Specifications
 
-- [ ] Complete at least 15 challenges.
-- [ ] write test for each challenge.
-- [ ] include two other possible approach from other programmers.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [X] Complete at least 15 challenges.
+- [X] Write test for each challenge.
+- [ ] Include two other possible approach from other programmers.
+- [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Our 15 Challenges
 - [X] [Multiples of 3 and 5](https://projecteuler.net/problem=1)
@@ -30,8 +25,8 @@ after finishing each challenge you would be able to see other programmers code w
 - [X] [Largest product in a grid](https://projecteuler.net/problem=11)
 - [X] [Highly divisible triangular number](https://projecteuler.net/problem=12)
 - [X] [Large sum](https://projecteuler.net/problem=13)
-- [ ] [Longest Collatz sequence](https://projecteuler.net/problem=14)
-- [ ] [Lattice paths](https://projecteuler.net/problem=15)
+- [X] [Longest Collatz sequence](https://projecteuler.net/problem=14)
+- [X] [Lattice paths](https://projecteuler.net/problem=15)
 
 <!-- LICENSE -->
 
