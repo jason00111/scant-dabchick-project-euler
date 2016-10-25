@@ -1,8 +1,10 @@
 const test = require('./testConfig')
 const largestProductInAGrid = require('../problems/problem11')
 
-test.only('largestProductInAGrid', function (t) {
+test('largestProductInAGrid', function (t) {
   const ourGrid = [[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5]]
+  const ourDiagonalGrid = [[5,2,3,4,1],[1,5,2,3,4],[1,2,5,3,4],[1,2,3,5,4],[1,2,3,4,5]]
+  const ourUpperLefToLowerRightDiagonalGrid = [[1,2,3,4,5],[1,2,3,5,4],[1,2,5,3,4],[1,5,2,3,4],[5,2,3,4,1]]
   const theirRawGrid =
    `08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
     49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00
@@ -25,9 +27,11 @@ test.only('largestProductInAGrid', function (t) {
     20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54
     01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48`
 
-  let theirGrid = theirRawGrid.split('\n').map( e => e.split(' '))
+  let theirGrid = theirRawGrid.split('\n').map( e => e.split(' ').map( z => Number(z)))
 
-  t.equal(largestProductInAGrid(ourGrid, 4), 25, 'ourGrid returned 25')
-  t.equal(largestProductInAGrid(theirGrid, 4), 10, 'theirGrid returned ?')
+  t.equal(largestProductInAGrid(ourGrid, 4), 625, 'ourGrid returned 625')
+  t.equal(largestProductInAGrid(ourDiagonalGrid, 4), 625, 'ourDiagonalGrid returned 625')
+  t.equal(largestProductInAGrid(ourUpperLefToLowerRightDiagonalGrid, 5), 3125, 'ourUpperLefToLowerRightDiagonalGrid returned 3125')
+  t.equal(largestProductInAGrid(theirGrid, 4), 70600674, 'theirGrid returned 70600674')
   t.end()
 })
