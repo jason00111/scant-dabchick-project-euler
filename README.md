@@ -30,7 +30,8 @@ https://projecteuler.net/archives
 
 ### Stretch Goals
 - [X] [Power digit sum](https://projecteuler.net/problem=16)
-- [ ] [Number letter counts](https://projecteuler.net/problem=17)
+- [X] [Number letter counts](https://projecteuler.net/problem=17)
+- [ ] [Maximum path sum I](https://projecteuler.net/problem=178)
 
 <!-- LICENSE -->
 
