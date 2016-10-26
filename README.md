@@ -31,7 +31,8 @@ https://projecteuler.net/archives
 ### Stretch Goals
 - [X] [Power digit sum](https://projecteuler.net/problem=16)
 - [X] [Number letter counts](https://projecteuler.net/problem=17)
-- [ ] [Maximum path sum I](https://projecteuler.net/problem=178)
+- [X] [Maximum path sum I](https://projecteuler.net/problem=18)
+- [X] [Maximum path sum II](https://projecteuler.net/problem=67)
 
 <!-- LICENSE -->
 

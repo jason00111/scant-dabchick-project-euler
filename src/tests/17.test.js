@@ -1,7 +1,7 @@
 const test = require('./testConfig')
 const {numberLetterCount, sumNumberLetterCount} = require('../problems/problem17')
 
-test.only('Sum Number Letter Count', function (t) {
+test('Sum Number Letter Count', function (t) {
   t.equal(sumNumberLetterCount(5), 19, '5 returned 19')
   t.equal(sumNumberLetterCount(1000), 21124, '1000 returned 21124')
   t.end()
