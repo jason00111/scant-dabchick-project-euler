@@ -28,6 +28,10 @@ https://projecteuler.net/archives
 - [X] [Longest Collatz sequence](https://projecteuler.net/problem=14)
 - [X] [Lattice paths](https://projecteuler.net/problem=15)
 
+### Stretch Goals
+- [X] [Power digit sum](https://projecteuler.net/problem=16)
+- [ ] [Number letter counts](https://projecteuler.net/problem=17)
+
 <!-- LICENSE -->
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
