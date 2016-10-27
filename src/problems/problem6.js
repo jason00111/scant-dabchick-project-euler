@@ -1,5 +1,3 @@
-
-
 const sumSquareDifference = n => {
   let sumOfSquares = 0
   let sum = 0
