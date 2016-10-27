@@ -3,7 +3,7 @@ const specialPythagoreanTriplet = require('../problems/problem9')
 const {specialPythagoreanTriplet2, specialPythagoreanTriplet3} = require('../otherSolutions/problem9')
 
 
-test.only('Special Pythagorean Triplet', function (t) {
+test('Special Pythagorean Triplet', function (t) {
   t.equal(specialPythagoreanTriplet(12), 60, '12 returned 60')
 
   console.time('Time taken for solution 1')
