@@ -13,8 +13,8 @@ const largestPalindromeProduct = n => {
   let max = 1
   for (let i = lowerLimit; i < upperLimit; i++) {
     for (let j = lowerLimit; j < upperLimit; j++) {
-      if ( isPalindrome( i * j ) ) {
-        max = max < i * j ? i * j : max
+      if ( isPalindrome( i * j ) && i * j > max) {
+        max = i * j
       }
     }
   }

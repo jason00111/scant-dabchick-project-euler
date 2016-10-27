@@ -2,7 +2,7 @@ const test = require('./testConfig')
 const {largestPrimeFactor, isPrime} = require('../problems/problem3')
 const {largestPrimeFactor2, largestPrimeFactor3} = require('../otherSolutions/problem3')
 
-test.only('Largest Prime Factor', function (t) {
+test('Largest Prime Factor', function (t) {
   t.equal(largestPrimeFactor(13195), 29, '13195 returned 29')
   t.equal(largestPrimeFactor(17), 17, '17 returned 17')
   t.equal(largestPrimeFactor(8), 2, '8 returned 2')

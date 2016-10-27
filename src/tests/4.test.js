@@ -1,10 +1,23 @@
 const test = require('./testConfig')
 const {largestPalindromeProduct, isPalindrome} = require('../problems/problem4')
+const {largestPalindromeProduct2, largestPalindromeProduct3} = require('../otherSolutions/problem4')
 
-test('Largest Palindrome Product', function (t) {
+test.only('Largest Palindrome Product', function (t) {
   t.equal(largestPalindromeProduct(1), 9, '1 returned 9')
   t.equal(largestPalindromeProduct(2), 9009, '2 returned 9009')
+
+  console.time('Time taken for solution 1')
   t.equal(largestPalindromeProduct(3), 906609, '3 returned 906609')
+  console.timeEnd('Time taken for solution 1')
+
+  console.time('Time taken for solution 2')
+  t.equal(largestPalindromeProduct2(3), 906609, '3 returned 906609')
+  console.timeEnd('Time taken for solution 2')
+
+  console.time('Time taken for solution 3')
+  t.equal(largestPalindromeProduct3(3), 906609, '3 returned 906609')
+  console.timeEnd('Time taken for solution 3')
+
   t.end()
 })
 
