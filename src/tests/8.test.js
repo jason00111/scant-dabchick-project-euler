@@ -2,7 +2,7 @@ const test = require('./testConfig')
 const largestProductInASeries = require('../problems/problem8')
 const largestProductInASeries2 = require('../otherSolutions/problem8')
 
-test.only('Largest Product In A Series', function (t) {
+test('Largest Product In A Series', function (t) {
   t.equal(largestProductInASeries(4), 5832, '4 returned 5832')
 
   console.time('Time taken for solution 1')
