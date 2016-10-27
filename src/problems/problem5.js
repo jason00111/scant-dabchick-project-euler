@@ -1,9 +1,9 @@
 const smallestMultiple = n => {
   for (let i = 1; ; i++) {
-    for (let j = 1; j <= n; j++) {
+    for (let j = n; j > 1; j--) {
       if ( i % j !== 0 ) {
         break
-      } else if ( j === n ) {
+      } else if ( j === 2 ) {
         return i
       }
     }

@@ -2,7 +2,9 @@ const test = require('./testConfig')
 const {longestCollatzSequence, lengthOfCollatzSequence} = require('../problems/problem14')
 
 test('Longest Collatz Sequence', function (t) {
-  t.equal(longestCollatzSequence(1000000), 5, '1000000 returned ?')
+  console.time('longestCollatzSequence')
+  t.equal(longestCollatzSequence(1000000), 837799, '1000000 returned 837799')
+  console.timeEnd('longestCollatzSequence')
   t.end()
 })
 

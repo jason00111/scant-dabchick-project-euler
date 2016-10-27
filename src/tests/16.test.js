@@ -3,7 +3,7 @@ const {powerDigitSum, add} = require('../problems/problem16')
 
 test('Power Digit Sum', function (t) {
   t.equal(powerDigitSum(15), 26, '15 returned 26')
-  t.equal(powerDigitSum(1000), 26, '1000 returned ?')
+  t.equal(powerDigitSum(1000), 1366, '1000 returned 1366')
   t.end()
 })
 

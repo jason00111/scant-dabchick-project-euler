@@ -32,14 +32,14 @@ const numberWords = {
 const numberLetterCount = n => {
 
   if ( n < 20 ) {
-    console.log( numberWords[n] )
+    // console.log( numberWords[n] )
     return numberWords[n].length
   }
 
   if ( n < 100 ) {
     let a = numberWords[ n.toString()[0] * 10 ]
     let b = numberWords[ n.toString()[1] ]
-    console.log( a, b )
+    // console.log( a, b )
     return a.length + b.length
   }
 
@@ -51,20 +51,20 @@ const numberLetterCount = n => {
     if ( n.toString()[1] < 2 ) {
       b = numberWords[ (n % 100).toString() ]
       if ( b === '' ) {
-        console.log( a, 'hundred' )
+        // console.log( a, 'hundred' )
         return a.length + 7
       } else {
-        console.log ( a, 'hundred and', b )
+        // console.log ( a, 'hundred and', b )
         return a.length + b.length + 10
       }
     } else {
       b = numberWords[ n.toString()[1] * 10 ]
       c = numberWords[ n.toString()[2] ]
-      console.log ( a, 'hundred and', b, c )
+      // console.log ( a, 'hundred and', b, c )
       return a.length + b.length + c.length + 10
     }
   }
-  console.log('one thousand')
+  // console.log('one thousand')
   return 'onethousand'.length
 
 }
