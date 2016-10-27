@@ -2,7 +2,7 @@ const test = require('./testConfig')
 const sumSquareDifference = require('../problems/problem6')
 const {sumSquareDifference2, sumSquareDifference3} = require('../otherSolutions/problem6')
 
-test.only('Sum Square Difference', function (t) {
+test('Sum Square Difference', function (t) {
   t.equal(sumSquareDifference(10), 2640, '10 returned 2640')
 
   console.time('Time taken for solution 1')
