@@ -1,8 +1,11 @@
 const test = require('./testConfig')
 const largestProductInAGrid = require('../problems/problem11')
+const {largestProductInAGrid2, largestProductInAGrid3} = require('../otherSolutions/problem11')
+
 
 test('largestProductInAGrid', function (t) {
   const ourGrid = [[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5]]
+  const ourHorizontalGrid = [[5,5,5,5,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,1]]
   const ourDiagonalGrid = [[5,2,3,4,1],[1,5,2,3,4],[1,2,5,3,4],[1,2,3,5,4],[1,2,3,4,5]]
   const ourUpperLefToLowerRightDiagonalGrid = [[1,2,3,4,5],[1,2,3,5,4],[1,2,5,3,4],[1,5,2,3,4],[5,2,3,4,1]]
   const theirRawGrid =
@@ -30,8 +33,21 @@ test('largestProductInAGrid', function (t) {
   let theirGrid = theirRawGrid.split('\n').map( e => e.split(' ').map( z => Number(z)))
 
   t.equal(largestProductInAGrid(ourGrid, 4), 625, 'ourGrid returned 625')
+  t.equal(largestProductInAGrid(ourHorizontalGrid, 4), 625, 'ourHorizontalGrid returned 625')
   t.equal(largestProductInAGrid(ourDiagonalGrid, 4), 625, 'ourDiagonalGrid returned 625')
   t.equal(largestProductInAGrid(ourUpperLefToLowerRightDiagonalGrid, 5), 3125, 'ourUpperLefToLowerRightDiagonalGrid returned 3125')
+
+  console.time('Time taken for solution 1')
   t.equal(largestProductInAGrid(theirGrid, 4), 70600674, 'theirGrid returned 70600674')
+  console.timeEnd('Time taken for solution 1')
+
+  console.time('Time taken for solution 2')
+  t.equal(largestProductInAGrid2(theirGrid, 4), 70600674, 'theirGrid returned 70600674')
+  console.timeEnd('Time taken for solution 2')
+
+  console.time('Time taken for solution 3')
+  t.equal(largestProductInAGrid3(theirGrid, 4), 70600674, 'theirGrid returned 70600674')
+  console.timeEnd('Time taken for solution 3')
+
   t.end()
 })
