@@ -28,6 +28,5 @@ test('Highly Divisible Triangle Number', function (t) {
   t.equal(highlyDivisibleTriangleNumber3(500), 76576500, '500 returned 76576500')
   console.timeEnd('Time taken for solution 3')
 
-
   t.end()
 })

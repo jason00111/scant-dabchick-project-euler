@@ -2,7 +2,6 @@ const test = require('./testConfig')
 const specialPythagoreanTriplet = require('../problems/problem9')
 const {specialPythagoreanTriplet2, specialPythagoreanTriplet3} = require('../otherSolutions/problem9')
 
-
 test('Special Pythagorean Triplet', function (t) {
   t.equal(specialPythagoreanTriplet(12), 60, '12 returned 60')
 

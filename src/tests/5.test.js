@@ -2,8 +2,7 @@ const test = require('./testConfig')
 const smallestMultiple = require('../problems/problem5')
 const {smallestMultiple2, smallestMultiple3} = require('../otherSolutions/problem5')
 
-
-test('Smallest multiple', function (t) {
+test.only('Smallest multiple', function (t) {
   t.equal(smallestMultiple(10), 2520, '10 returned 2520')
 
   console.time('Time taken for solution 1')

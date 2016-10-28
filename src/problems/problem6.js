@@ -8,5 +8,4 @@ const sumSquareDifference = n => {
   return sum * sum - sumOfSquares
 }
 
-
 module.exports = sumSquareDifference

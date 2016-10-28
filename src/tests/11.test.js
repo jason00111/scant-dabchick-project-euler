@@ -2,7 +2,6 @@ const test = require('./testConfig')
 const largestProductInAGrid = require('../problems/problem11')
 const {largestProductInAGrid2, largestProductInAGrid3} = require('../otherSolutions/problem11')
 
-
 test('largestProductInAGrid', function (t) {
   const ourGrid = [[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5]]
   const ourHorizontalGrid = [[5,5,5,5,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,1]]

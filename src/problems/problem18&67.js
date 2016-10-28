@@ -1,9 +1,3 @@
-
-
-
-
-
-
 const maximumPathSum = rawTriangleString => {
   let max
   let triangleArray = rawTriangleString.split('\n')

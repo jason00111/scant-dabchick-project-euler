@@ -8,7 +8,7 @@ https://projecteuler.net/archives
 
 - [X] Complete at least 15 challenges.
 - [X] Write test for each challenge.
-- [ ] Include two other possible approach from other programmers.
+- [X] Include two other possible approach from other programmers.
 - [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Our 15 Challenges
@@ -33,6 +33,9 @@ https://projecteuler.net/archives
 - [X] [Number letter counts](https://projecteuler.net/problem=17)
 - [X] [Maximum path sum I](https://projecteuler.net/problem=18)
 - [X] [Maximum path sum II](https://projecteuler.net/problem=67)
+
+## Our hard earned check marks
+![Success Proof](./src/images/success.png)
 
 <!-- LICENSE -->
 

@@ -15,9 +15,3 @@ const latticePaths = n => {
 }
 
 module.exports = latticePaths
-
-// Amazing recursive solution that takes more than an hour
-// const latticePaths = ( x, y ) => {
-//   if ( x === 0 || y === 0 ) return 1
-//   return latticePaths( x - 1, y ) + latticePaths( x, y - 1 )
-// }

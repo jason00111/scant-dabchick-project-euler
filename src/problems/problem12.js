@@ -20,5 +20,4 @@ const highlyDivisibleTriangleNumber = n => {
   }
 }
 
-
 module.exports = {highlyDivisibleTriangleNumber, numOfFactors}

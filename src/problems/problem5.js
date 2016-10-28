@@ -1,5 +1,5 @@
 const smallestMultiple = n => {
-  for (let i = 20; ; i++) {
+  for (let i = n; ; i++) {
     for (let j = n; j > 1; j--) {
       if ( i % j !== 0 ) {
         break
